@@ -1,0 +1,48 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  *{
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+  }
+  
+  .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid;
+    padding: 5px
+  }
+  
+  header{
+    background-color: lightGray;
+  }
+  
+  .img, img {
+    display: block;
+    justify-content: center;
+    max-width:100%;
+    height: auto;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    scale:96%;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    padding: 5px;
+  }
+  .img-caption{
+    font-size: 1.5em
+  }
+  
+  button{
+    font-family: Arial;
+    border-radius: 5px;
+    border: none;
+    background-color: grey;
+    color: white;
+    padding: 6px;
+    margin-bottom: 10px;
+  }
